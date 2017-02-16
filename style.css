@@ -1,0 +1,7 @@
+.show-btn{
+    display: none;
+}
+button{
+    display: block;
+    margin: 10px;
+}
