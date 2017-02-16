@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--internet explorer-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<button id="class_done">добавление класса по клику</button>
+<button id="class_delete" class="class_delete">удаление класса по клику</button>
+<button id="btn" class="class_delete">переключение класса по клику (если есть класс - его убрать, если нет - добавить)</button>
+<button class="my" id="my-btn">получение какого-то атрибута кнопки по клику и вывод его в консоль</button>
+<button id="add_class">присвоение какого-то атрибута кнопке по клику</button>
+<button id="my_confirm">вызов всплывающего окна по клику (сообщения, не модалки)</button>
+<button id="confirm2">При клике на Ок в всплывающем окне - вывести любое сообщение в консоль</button>
+<button id="done-text">по клику склонировать кнопку, дописать текст "(cloned)" и вставить её сразу после этой кнопки</button>
+
+
+
+<button id="btn-texts">по клику циклом пройтись по всем кнопкам и собрать массив текста этих кнопок.
+ То есть, в итоге, вывести в консоль массив текста кнопок.</button>
+
+
+
+<button id="find-btn">по клику найти эту кнопку в теге body и вывести в консоль результат поиска</button>
+
+<div>
+    <button id="button-fadeout">расположить текст рядом с кнопкой, по клику на кнопку скрыть этот текст через fadeOut.</button>
+    <span class="button-fadeout">HELLO BABY!!!!</span>
+</div>
+
+<div>
+    <button id="button-hide">расположить текст рядом с кнопкой, по клику на кнопку скрыть этот текст через hide.</button>
+    <span class="hide-btn">HELLO!!!!</span>
+</div>
+
+<div>
+    <button id="button-show">расположить скрытый текст рядом с кнопкой, по клику на кнопку показать этот текст через show.</button>
+    <span class="show-btn">HELLO!!!!</span>
+</div>
+
+<button id="btn-attr"> по клику вывести следующие данные через запятые в консоль: высота кнопки, ширина кнопки, абсолютную позиция по обеим осям, значение всех атрибутов, родительский элемент, соседние кнопки сверху и снизу, текст кнопки.</button>
+
+<button id="btn-fadeout">- по клику Сделать исчезание (медленное) кнопки во все 4 стороны</button>
+
+<p>- при изменении размера окна браузера покрасить кнопки в синий цвет</p>
+
+<p>- при скроле вниз покрасить кнопки в желтый цвет</p>
+
+
+<button class="href">- при клике на кнопку в нижестоящем блоке дописать ссылку на любую страницу с текстом ТЕСТ</button>
+<div class="done"></div>
+
+
+
+
+<!--jquery-->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!--js/bootstrap-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--my JS-->
+<script src="index.js">
+
+</script>
+
+</body>
+</html>
